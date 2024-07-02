@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "role": "Junior Software Development Engineer ",
+      "organisation": "CloudEQ",
+      "startDate": "March, 2023",
+      "endDate": "Present",
+      "location": "Chandigarh, India",
+      "experiences": [
+        "Worked on Zabihah client Project ",
+        "Worked with thired party Tool integration"
+      ],
+      "imageSrc": "company/cloudeq.png"
+    }
+]
+   

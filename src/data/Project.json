@@ -1,0 +1,34 @@
+[
+    {
+      "key": 1,
+      "title": "React E-Commerce",
+      "imageSrc": "/skills/demo 1.png",
+      "description": "This is a project made with complete React js.",
+      "demo": "https://shopping-cart-in-react-rfdm.vercel.app/",
+      "source": "https://github.com/kjha4951/Shopping-cart-in-React.git"
+    },
+    {
+      "key": 2,
+      "title": "Mern chat-app",
+      "imageSrc": "/skills/Demo2.png",
+      "description": "This is a project made with complete React js.",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/kjha4951/Chat-app.git"
+    },
+    {
+      "key": 3,
+      "title": "Movie E-Commerce", 
+      "imageSrc": "/skills/movie.png",
+      "description": "This is a project made with complete React-redux toolskit",
+      "demo": "https://movie-ecom-redux.vercel.app/",
+      "source": "https://github.com/kjha4951/Movie-ecom-redux.git"
+    },
+    {
+      "key": 4,
+      "title": "Search-filter", 
+      "imageSrc": "/skills/Search.png",
+      "description": "This is a project made with complete react and tailwind css",
+      "demo": "https://seach-filter.vercel.app/",
+      "source": "https://github.com/kjha4951/Seach-filter.git"
+    }
+  ]

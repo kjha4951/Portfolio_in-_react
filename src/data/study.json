@@ -1,0 +1,30 @@
+[
+
+
+    {
+        "id": 1,
+        "degree": "Bachelor of Computer Applications (BCA)",
+        "institution": "Chhatrapati Shahu Ji Maharaj University",
+        "startDate": "2017",
+        "endDate": "2020",
+        "location": "Kanpur, India",
+        "experiences": [
+            "Completed coursework in software development, algorithms, and database management",
+            "Engaged in multiple projects involving full-stack development"
+        ],
+        "imageSrc": "skills/csjmu.png"
+    },
+    {
+        "id": 2,
+        "degree": "Master of Computer Applications (MCA)",
+        "institution": "Jagran Institute of Management,AKTU",
+        "startDate": "2021",
+        "endDate": "2023",
+        "location": "Kanpur, India",
+        "experiences": [
+            "Completed coursework in software development, algorithms, and database management",
+            "Engaged in multiple projects involving full-stack development"
+        ],
+        "imageSrc": "skills/aktu.png"
+    }
+]
