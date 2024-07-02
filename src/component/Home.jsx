@@ -5,18 +5,20 @@ import Typed from 'typed.js'
 
 
 const Home = () => {
-  const TypedRef = useRef(null)
+  const TypedRef = useRef(null);
   useEffect(()=>{
-   const options ={
+   const option ={
     strings:["Welcome To My Portfolio 🤝","My Name is KOMAL JHA " , "I'M A Software developer"],
     typeSpeed:70,
     backSpeed:50,
     loop:true,
+    showCursor: false,
    }
 
-   const typed = new Typed(TypedRef.current,options)
+   const typed = new Typed(TypedRef.current,option)
    return ()=>{
-    typed.destroy()
+    typed.destroy();
+    
    }
 
   },[])
