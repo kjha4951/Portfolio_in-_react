@@ -27,7 +27,7 @@
       "key": 4,
       "title": "Book-store", 
       "imageSrc": "/skills/Search.png",
-      "description": "This is a project made with complete react and tailwind css",
+      "description": "This is a project made with complete react vite , bootstrap ,nodejs ,express and mongodb",
       "demo": "https://front-bookstore-l7s1.vercel.app/",
       "source": "https://github.com/kjha4951?tab=stars"
     }
