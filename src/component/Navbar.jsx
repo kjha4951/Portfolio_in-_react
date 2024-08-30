@@ -1,30 +1,24 @@
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
-
-
-import React from 'react'
-
-const Navbar = () => {
-
+const MyNavbar = () => {
     return (
-        <>
-            <div className="container nav_bar "
-            
-            data-aos="fade-down"
-            data-aos-duration="1000"
-            >
-                <div className="left nav_items"><h3>Portfolio </h3></div>
-                <div className="right">
-                    <a href="#home" className="nav_items">Home</a>
-                    <a href="#education" className="nav_items">Education</a>
-
-                    <a href="#experience" className="nav_items">Experience</a>
-                    <a href="#skills" className="nav_items">Skills</a>
-                    <a href="#projects" className="nav_items">Projects</a>
-                    <a href="#contact" className="nav_items">Contact</a>
-                </div>
-            </div>
-        </>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container>
+                <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#education">Education</Nav.Link>
+                        <Nav.Link href="#experience">Experience</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
-export default Navbar
+export default MyNavbar
