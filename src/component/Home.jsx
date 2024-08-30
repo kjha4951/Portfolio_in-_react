@@ -8,7 +8,7 @@ const Home = () => {
   const TypedRef = useRef(null);
   useEffect(()=>{
    const option ={
-    strings:["Welcome To My Portfolio 🤝","My Name is KOMAL JHA " , "I'M A Software developer"],
+    strings:["Welcome To My Portfolio ","My Name is KOMAL JHA " , "I'M A Software developer"],
     typeSpeed:70,
     backSpeed:50,
     loop:true,
@@ -32,10 +32,10 @@ const Home = () => {
 
         <a href={pdf} download='Resume.pdf' className="btn btn-outline-warning my-3">Download Resume</a>
        </div>
-       <div className="right" >
+       <div className="right d-flex justify-content-center align-items-center" >
 
         <div className="img">
-          <img src={`/assets/${hero.imgSrc}`} alt="" />
+          <img src={`/assets/${hero.imgSrc}`} alt="" className="img-fluid"/>
         </div>
         
        </div>
@@ -45,3 +45,4 @@ const Home = () => {
 }
 
 export default Home
+
