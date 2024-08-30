@@ -20,7 +20,8 @@ function App() {
   return (
    <>
    <Navbar/>
-   <div className="container">
+   {/* <div className="container" style={{overflowX: 'hidden'}}> */}
+
    <Home/>
    <Education/>
    <Experience/>
@@ -28,7 +29,7 @@ function App() {
    <Projects/>
    <Contact/>
 
-   </div>
+   {/* </div> */}
    
    
 
@@ -37,3 +38,4 @@ function App() {
 }
 
 export default App
+

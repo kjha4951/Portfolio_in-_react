@@ -3,10 +3,7 @@
       "title": "HTML",
       "imageSrc": "skills/html.png"
     },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
+
     {
       "title": "JavaScript",
       "imageSrc": "skills/javascript.png"
@@ -22,10 +19,6 @@
     {
       "title":"Sql",
       "imageSrc":"skills/sql.png"
-    },
-    {
-      "title": "React-Redux",
-      "imageSrc": "skills/redux.jpg"
     },
     {
       "title": "MongoDB",
@@ -44,10 +37,6 @@
     }, {
       "title": "Github",
       "imageSrc": "skills/github.png"
-    },
-    {
-      "title": "Oops",
-      "imageSrc": "skills/oops.jpg"
     }
 
     
