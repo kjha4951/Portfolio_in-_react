@@ -69,11 +69,14 @@ a:hover {
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
   margin-bottom: 2rem;
+  height: 300px; /* Set a fixed height */
+  overflow: hidden; /* Prevent content overflow */
 }
 
 .home .left h1 {
   margin-bottom: 1.5rem;
   color: var(--accent-color);
+  min-height: 60px; /* Ensure enough space for the text */
 }
 
 .home .right .img {
@@ -107,7 +110,7 @@ a:hover {
 .edu-items,
 .ex-items {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-color: var(--dark-color);
   margin: 20px auto;
@@ -117,14 +120,25 @@ a:hover {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   box-shadow: var(--box-shadow);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .edu .edu-items .left img,
 .ex .ex-items .left img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
+  width: 50%;
+  max-width: 250px;
+  height: 50%; /* Adjust the height */
+  margin-right: 20px;
+}
+
+.edu .edu-items .right,
+.ex .ex-items .right {
+  flex: 1;
+}
+
+.edu .edu-items .right p,
+.ex .ex-items .right p {
+  margin: 0;
 }
 
 .skills .items {

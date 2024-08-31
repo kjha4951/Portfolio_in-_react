@@ -20,7 +20,7 @@ function App() {
   return (
    <>
    <Navbar/>
-   <div className="container">
+   <div className="container" style={{overflow:"hidden"}}>
    <Home/>
    <Education/>
    <Experience/>
