@@ -69,7 +69,7 @@ a:hover {
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
   margin-bottom: 2rem;
-  height: 300px; /* Set a fixed height */
+  height: 250px; /* Set a fixed height */
   overflow: hidden; /* Prevent content overflow */
 }
 
