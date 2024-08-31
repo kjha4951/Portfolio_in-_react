@@ -56,16 +56,19 @@ a:hover {
   align-items: center;
   height: 80vh;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .home .left {
   background-color: var(--dark-color);
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   text-align: center;
   padding: 2rem;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
 }
 
 .home .left h1 {
@@ -80,8 +83,9 @@ a:hover {
 }
 
 .home .right .img img {
-  width: 270px;
-  height: 270px;
+  width: 100%;
+  max-width: 270px;
+  height: auto;
   border: 5px solid var(--box-shadow);
   border-radius: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -92,50 +96,35 @@ a:hover {
   transform: scale(1.2);
 }
 
-
-.edu {
-  width: 900px;
+.edu,
+.ex,
+.skills {
+  width: 100%;
+  max-width: 900px;
   margin: 2rem auto;
 }
 
-.edu-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--dark-color);
-  margin: 20px;
-  padding: 30px;
-  width: 800px;
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-}
-.edu .edu-items .left img{
-  width: 200px;
-  height: 200px;
-}
-
-.ex {
-  width: 900px;
-  margin: 2rem auto;
-}
-
+.edu-items,
 .ex-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--dark-color);
-  margin: 20px;
+  margin: 20px auto;
   padding: 30px;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  flex-wrap: wrap;
 }
 
-.skills {
-  width: 900px;
-  margin: 2rem auto;
+.edu .edu-items .left img,
+.ex .ex-items .left img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 
 .skills .items {
@@ -149,7 +138,8 @@ a:hover {
 .skills .items .item {
   background-color: var(--dark-color);
   margin: 20px;
-  width: calc(33.33% - 40px);
+  width: calc(100% - 40px);
+  max-width: calc(33.33% - 40px);
   text-align: center;
   padding: 20px;
   border-radius: 10px;
@@ -168,11 +158,12 @@ a:hover {
 }
 
 .contact-icon {
-  height: 30vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .contact-icon .items {
@@ -196,4 +187,70 @@ a:hover {
 .contact-icon .items .icons {
   font-size: 2rem;
   color: var(--light-color);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+  }
+
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .home .left, .home .right .img img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .edu-items, .ex-items {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .skills .items .item {
+    max-width: 100%;
+  }
+
+  .contact-icon .items {
+    margin: 5px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .contact-icon .items .icons {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav_bar .nav_items {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .home .left {
+    padding: 1rem;
+  }
+
+  .edu-items, .ex-items {
+    padding: 15px;
+  }
+
+  .skills .items .item {
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .contact-icon .items {
+    height: 50px;
+    width: 50px;
+  }
+
+  .contact-icon .items .icons {
+    font-size: 1.25rem;
+  }
 }

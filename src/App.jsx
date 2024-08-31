@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Navbar from './component/Navbar'
 import Home from './component/Home'
 
-import './App.css'
+import './index.css'
 import Experience from './component/Experirnce'
 import Skills from './component/Skills'
 import Projects from './component/Projects'
@@ -20,8 +20,7 @@ function App() {
   return (
    <>
    <Navbar/>
-   {/* <div className="container" style={{overflowX: 'hidden'}}> */}
-
+   <div className="container">
    <Home/>
    <Education/>
    <Experience/>
@@ -29,7 +28,7 @@ function App() {
    <Projects/>
    <Contact/>
 
-   {/* </div> */}
+   </div>
    
    
 
@@ -38,4 +37,3 @@ function App() {
 }
 
 export default App
-
