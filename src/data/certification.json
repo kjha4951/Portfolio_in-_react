@@ -1,0 +1,51 @@
+[
+    {
+      "key": 1,
+      "title": "New Relic Certification",
+      "imageSrc": "/certifications/new-relic.png",
+      "viewLink": "https://credentials.newrelic.com/61ceb291-31a9-4353-bb55-c7e980d500ba"
+    },
+    {
+      "key": 2,
+      "title": "Java(basic) ",
+      "imageSrc": "/certifications/java.png",
+      "viewLink": "https://www.hackerrank.com/certificates/b145241d030c"
+    },
+    {
+        "key": 3,
+        "title": "MongoDB CRUD Operations: Insert and Find Documents",
+        "imageSrc": "/certifications/mongodb.png",
+        "viewLink": "https://learn.mongodb.com/c/EfPyqJ2XT4iJAz4oUuPZyw"
+      },
+      {
+        "key": 4,
+        "title": "Getting Started with MongoDB Atlas",
+        "imageSrc": "/certifications/mongodb.png",
+        "viewLink": "https://learn.mongodb.com/c/g3OQYSihRnqTOTntqQxYVg"
+      },
+      {
+        "key": 5,
+        "title": "Getting Started with MongoDB Atlas",
+        "imageSrc": "/certifications/mongodb.png",
+        "viewLink": "https://learn.mongodb.com/c/g3OQYSihRnqTOTntqQxYVg"
+      },
+      {
+        "key": 6,
+        "title": "JavaScript Specialist Certification",
+        "imageSrc": "/certifications/js.png",
+        "viewLink": "https://www.hackerrank.com/certificates/32a383584e63"
+      },
+      {
+        "key": 7,
+        "title": "Oracle Database 12c: SQL Fundamentals",
+        "imageSrc": "/certifications/sql.png",
+        "viewLink": "https://www.hackerrank.com/certificates/cbddc3dbcc40"
+      },
+      {
+        "key": 8,
+        "title": "academics and research",
+        "imageSrc": "/certifications/Research.png",
+        "viewLink": "https://imagetolink.com/ib/Qkoj9jDoZh"
+      }
+  ]
+  

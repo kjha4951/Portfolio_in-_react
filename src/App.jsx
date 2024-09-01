@@ -10,6 +10,7 @@ import Contact from './component/Contact'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Education from './component/Education'
+import Certifications from './component/certification'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
    <Home/>
    <Education/>
    <Experience/>
+   <Certifications/>
    <Skills/>
    <Projects/>
    <Contact/>
