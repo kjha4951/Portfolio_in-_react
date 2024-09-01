@@ -87,7 +87,7 @@ a:hover {
 
 .home .right .img img {
   width: 100%;
-  max-width: 270px;
+  max-width: 200px; /* Further reduced max-width */
   height: auto;
   border: 5px solid var(--box-shadow);
   border-radius: 100%;
@@ -96,8 +96,28 @@ a:hover {
 }
 
 .home .right .img img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .home .right .img img {
+    max-width: 180px; /* Reduced max-width for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .home .right .img img {
+    max-width: 150px; /* Further reduced max-width for smaller screens */
+  }
+}
+
 
 .edu,
 .ex,
